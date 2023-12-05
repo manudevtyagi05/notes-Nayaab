@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  nav input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  nav button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Main section styling */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Aside section styling */
+  aside {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  aside a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes images round */
+  }
+  
+  aside h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Style for My Library links */
+  aside section a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design for aside */
+  @media (max-width: 768px) {
+    aside {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  }
+  
+  /* Footer styling */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Social media icons */
+  .social-media a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    /* Add your responsive styles here */
+  }
+
+  .landing{
+    display: flex;
+  }
+  img{
+    height: 30px;
+    width: 30px;
+  }
